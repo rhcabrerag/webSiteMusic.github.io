@@ -1,0 +1,249 @@
+﻿*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+    min-width: 900px;
+}
+
+.img_icono img {
+    width: 100px;
+    border-radius: 50px;
+}
+
+.ul_carousel{
+    padding: 0px;
+}
+/* Centro */
+
+.centro__superior {
+    width: 100%;
+    padding: 20px;
+    display: inline-flex;
+}
+
+.bienvenidos {
+    color: #ff6600;
+    font: normal 25px / 43px "Coda", Helvetica, Arial, Verdana, sans-serif;
+}
+
+
+/* Centro derecho */
+
+.centro {
+    padding: 20px;
+    display: inline-flex;
+}
+
+.superior__derecho, .superior__izquierdo {
+    padding: 20px;
+}
+.superior__derecho{
+    width: 30%;
+}
+
+.imagen_superior{
+    width: 100%;
+}
+
+.superior__izquierdo{
+    width: 65%;
+    padding: 5% 0px;
+}
+
+
+/* footer */
+
+footer{
+    height: 80px;
+}
+footer ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+footer li{
+    display: inline-block;
+    padding: 0px 15px;
+}
+footer img{
+    width: 30px;
+    border-radius: 50px;
+}
+
+footer .redes_Sociales,footer .derechos_autor{
+    width: 48%;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+}
+
+
+footer .redes_Sociales{
+    text-align: left;
+}
+
+footer .derechos_autor{
+    text-align: right;
+}
+
+.datos__total p {
+    display: inline-block;
+}
+
+
+
+/* 
+{
+    {
+        {
+            {
+                {
+                    QUIENES SOMOS
+                }
+            }
+        }
+    }
+}
+
+*/
+
+.row {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    width: calc(100%);
+}
+
+.card {
+    margin: 20px;
+    text-align: center;
+}
+
+.list_cursos img{
+    width: calc(100% - 50px);
+}
+
+.centro_quienesSomos {
+    border-radius: 30px;
+    border: 1px solid gray;
+    padding: 30px;
+    margin: 5px 50px;
+}
+
+.centro_quienesSomos hr{
+    padding: 0 30px;
+}
+
+.hacer_flex {
+    display: inline-flex;
+}
+
+.hacer_grid {
+    padding: 20px;
+    margin: 10px;
+}
+
+.centro_quienesSomos img {
+    width: 500px;
+    height: 300px;
+}
+
+.mision, .vision {
+    width: 90%;
+}
+
+.centro_quienesSomos .centro_superior p {
+    padding: 10% 0;
+}
+.centro_quienesSomos .centro_inferior p {
+    padding: 25% 0;
+}
+
+
+.centro_quienesSomos img {
+    border-radius: 30px;
+}
+
+.centro_quienesSomos h3 {
+    color: #ff6600;
+    padding: 0 50px;
+}
+
+.mision h3 {
+    text-align: right;
+}
+
+.hacer_grid {
+    display: inline-grid;
+}
+
+/* 
+{
+    {
+        {
+            {
+                {
+                    CONTACTO
+                }
+            }
+        }
+    }
+}
+
+*/
+
+.contacto{
+    padding: 5px;
+    width: 100%;
+}
+
+.contacto h3 {
+    color: #ff6600;
+}
+
+.contactenos {
+    width: 38%;
+}
+
+.solicitar_info {
+    width: 60%;
+}
+
+.contactenos img {
+    width: 50px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 50px;
+}
+.solicitar_info .col {
+    padding: 40px 10px ;
+}
+
+.solicitar_info {
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.contacto_redes .items_redes{
+    display: block;
+    padding: 10px;
+}
+.contacto .descripcion_items {
+    display: block;
+}
+
+.items_redes .sub_items {
+    display: inline-flex;
+    margin: 0px 0px 0px 50px ;
+}
+
+.items_redes .sub_items .descripcion_items{
+    margin: 0px 0px 0px 50px ;
+}
